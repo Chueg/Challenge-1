@@ -4,48 +4,13 @@
     padding: 0;
     margin: 0;
 }
+
+
+
 /*The background of every body will be*/
 body {
     background-color: #d9dcd6;
 }
-
-
-
-/*all header classes default to this color and font*/
-.header {
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #2a607c;
-    color: #ffffff;
-}
-/*makes h1 in header class inline/font48px */
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-}
-/*header h1 class seo will have font color*/
-.header h1 .seo {
-    color: #d9dcd6;
-}
-/*header class div will have custom font and sizes*/
-.header div {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-/*changes list style type*/
-.header div ul {
-    list-style-type: none;
-}
-/*establishes margin and display of li in header class*/
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
-
 
 /*changes text color of a*/
 a {
@@ -58,6 +23,55 @@ p {
     font-size: 16px;
 }
 
+
+
+/*all header classes default to this color and font*/
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+
+/*Header h1 customization*/
+ 
+/*makes h1 in header class inline/font48px */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/*header h1 class seo will have font color*/
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/*header nav customization*/
+
+/*header class div will have custom font and sizes*/
+.header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/*changes list style type*/
+.header nav ul {
+    list-style-type: none;
+}
+/*establishes margin and display of li in header class*/
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+
+
+
+
+
 /*customizes hero class size*/
 .hero {
     height: 800px;
@@ -68,13 +82,14 @@ p {
     background-position: center;
 }
 
+
+
 /*customizes content class size*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
 /*float left class will left align*/
 .float-left {
     float: left;
@@ -86,6 +101,79 @@ p {
     float: right;
     margin-left: 25px;
 }
+
+
+
+
+
+/*customizes the search-engine-optimization class*/
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*changes search-engine-optimization img max-height*/
+.search-engine-optimization img {
+    max-height: 200px;
+}
+/*changes font size and margin for h2 in search-engine-optimization */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+
+
+/*customizes online-reputation-management class*/
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*changes online-reputation-management img max-height*/
+.online-reputation-management img {
+    max-height: 200px;
+}
+/*changes font size and margin for h2 in online-reputation-management */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
+
+
+
+/*customizes social-media-marketing class*/
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/*changes social-media-marketing img max-height*/
+.social-media-marketing img {
+    max-height: 200px;
+}
+/*changes font size and margin for h2 in social-media-marketing */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+
+
 
 
 /*sets parameters for benefits class*/
@@ -121,6 +209,8 @@ p {
 
 
 
+
+
 /*establishes font color and margin*/
 .benefit-brand {
     margin-bottom: 32px;
@@ -137,6 +227,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
 
 
 
@@ -160,65 +251,9 @@ p {
 
 
 
-/*customizes the search-engine-optimization class*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*changes search-engine-optimization img max-height*/
-.search-engine-optimization img {
-    max-height: 200px;
-}
-/*changes font size and margin for h2 in search-engine-optimization */
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-
-/*customizes online-reputation-management class*/
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*changes online-reputation-management img max-height*/
-.online-reputation-management img {
-    max-height: 200px;
-}
-/*changes font size and margin for h2 in online-reputation-management */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 
 
-/*customizes social-media-marketing class*/
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*changes social-media-marketing img max-height*/
-.social-media-marketing img {
-    max-height: 200px;
-}
-/*changes font size and margin for h2 in social-media-marketing */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 
 /*customizes the footer*/
